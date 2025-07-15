@@ -18,3 +18,4 @@ class Config:
     # Message Configuration
     DEFAULT_MESSAGE = "📈 تنبيه جديد من TradingView 🚨"
     MESSAGE_PREFIX = "🚨 TradingView Alert:\n"
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
